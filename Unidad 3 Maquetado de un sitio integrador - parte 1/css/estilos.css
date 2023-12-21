@@ -1,0 +1,175 @@
+body{
+    
+    background-color: rgb(0, 0, 0);
+}
+
+#header-logo-container img{
+    width: 90px;
+    height: 70px;
+    margin: -13px;
+  }
+
+
+
+.hero {
+    background: url(/img/header.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    height: 50vh;
+    min-height: 600px;
+    text-align: center;
+    
+}
+
+.textoPresentacion{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.txtWine{
+    color: rgb(158, 6, 6);
+}
+
+.titulo{
+    font-size: 50px;
+}
+
+.equipo{
+    font-size: 30px;
+    margin-top: 270px;
+    margin-left: 40px;
+}
+
+.noticiasNovedades{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.nosotros{
+    background: url(/img/historia_4.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    height: 60vh;
+    min-height: 600px;
+    text-align: center;
+    
+}
+
+.contenedorNosotros{
+    background-color: black;
+}
+
+.contenedorTestimonios{
+    background-color: white;
+}
+
+
+
+.cardNosotros{
+    height: 320px;
+    color: black;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+
+.contenedorHistoria{
+    background: url(/img/historia1.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    height: 60vh;
+    min-height: 400px;
+    text-align: center;
+}
+
+
+.contenerdor1{
+    background-color: antiquewhite;
+}
+
+.contenerdor2{
+    background-color: white;
+}
+
+
+
+.imagen1 {
+    height: 400px;
+}
+
+.anno{
+    margin-left: 200px;
+}
+
+.textoHistoria{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+
+.contenedorConocenos{
+    background: url(/img/headerContacto.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    height: 0vh;
+    min-height: 400px;
+    text-align: center;
+}
+
+
+.infoContacto{
+    font-size: 60px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.Turismo{
+    background-color: brown;
+    padding: 2px;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+.contenedorFormularioYmaps{
+    background-color: antiquewhite;
+   display: flex;
+}
+
+
+.formulario {
+    margin: 10px;
+    margin-left: 100px;
+}
+
+.mapa{
+    margin-left: 120px;
+    margin-top: 120px;
+}
+
+
+
+.testimonios{
+    background-color: #dadada;
+    padding-bottom: 4rem !important;
+
+}
+
+.testimonio{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.footer{
+    background-color: black;
+}
+
+#logofooter{
+    width: 90px;
+    height: 70px;
+    
+}
