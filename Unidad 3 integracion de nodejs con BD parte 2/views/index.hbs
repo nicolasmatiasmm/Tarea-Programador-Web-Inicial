@@ -1,0 +1,237 @@
+<!--Comienzo Hero-->
+<div class="container-fluid">
+  <div id="home" class="row align-items-center hero">
+    <div class="fila-nosotros" data-aos="zoom-in-down" data-aos-duration="3000">
+      <div class="col1">
+        <span class="titulo">BIENVENIDO A VIÑA</span>
+        <h2><span class="txtWine titulo">RED</span>
+          <span class="titulo">WINE</span></h2>
+      </div>
+
+
+      <!-- nombre y edad -->
+     
+     <h2>{{title}}</h2>
+      {{#if conocido}}
+      <p>Hola {{nombre}} </p>
+
+      <p> {{edad}} </p>
+      <p> {{mail}} </p>
+      <a href="/salir">Salir</a> </p>
+      {{/if}}
+
+      {{#unless conocido}}
+      <p>Ingrese sus datos</p>
+
+      <form action="/ingresar" method="post">
+      <input type="text" placeholder="Coloque su nombre" name="nombre">
+      <br>
+      <br><input placeholder="Coloque su edad" type="tel" name="edad">
+      <br>
+      <br><input placeholder="Coloque su correo electronico aquí" type="email" name="mail">
+      <br>
+      <br>
+      <button>Ingresar</button>
+      </form>
+
+      {{/unless}}
+
+        <!-- nombre y edad -->
+
+
+
+    </div>
+  </div>
+  <!--Fin Hero-->
+
+  <!--Noticias y Novedades -->
+
+  <div class="container-fluid noticiasNovedades">
+    <h2 id="Novedades">Noticias y Novedades</h2>
+
+    <div class="card-group" data-aos="fade-up" data-aos-duration="3000">
+      <div class="card">
+        <img src="/images/historia_1.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Visita Guiada</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Corrupti facere cum asperiores voluptates
+            perspiciatis molestias eum similique. Dolores voluptates praesentium
+            et eveniet, quas laboriosam fugiat. Animi quas magni nesciunt
+            cumque.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Sabado 13 de diciembre</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/images/historia_2.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Sala de descanso</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Corrupti facere cum asperiores voluptates
+            perspiciatis molestias eum similique. Dolores voluptates praesentium
+            et eveniet, quas laboriosam fugiat. Animi quas magni nesciunt
+            cumque.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Sabado 16 de diciembre</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/images/historia_3.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Depositos</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Corrupti facere cum asperiores voluptates
+            perspiciatis molestias eum similique. Dolores voluptates praesentium
+            et eveniet, quas laboriosam fugiat. Animi quas magni nesciunt
+            cumque.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Sabado 19 de diciembre</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--FIN Noticias y Novedades -->
+
+<!--Nosotros -->
+
+<div class="contenedorNosotros pt-3">
+  <div class="container text-light bg-dark"><h2 id="Creadores">Conoce nuestro
+      equipo.</h2></div>
+  <div class="d-inline-flex p-4">
+
+    <div class="col" data-aos="flip-left" data-aos-duration="3000">
+      <div class="card">
+        <img src="/images/nosotros01.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title text-dark">ING. JUANA RODRIGUEZ</h5>
+          <p class="card-text text-dark">This is a longer card with supporting
+            text below as a natural lead-in to additional content. This content
+            is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col" data-aos="flip-right" data-aos-duration="3000">
+      <div class="card">
+        <img src="/images/nosotros02.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title text-dark">ING. JUAN GONZALEZ</h5>
+          <p class="card-text text-dark">This is a longer card with supporting
+            text below as a natural lead-in to additional content. This content
+            is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!--Fin Nosotros -->
+
+<!--Testimonios -->
+<div class="container-fluid noticiasNovedades text-dark">
+  <h2 id="testimonio">Testimonios</h2>
+
+  <div
+    data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500"
+    class="container-fluid contenedorTestimonios pt-2"
+  >
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide testimonios"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner pt-3">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img
+            src="/images/testimonio3.jpg"
+            class="d-block w-50 mx-auto"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block testimonio">
+            <h5 class="text-light">Esther (Uruguay)</h5>
+            <p class="text-light">EL MEJOR VINO!</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="/images/testimonio1.jpg"
+            class="d-block w-50 mx-auto"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block testimonio">
+            <h5 class="text-light">Rodolfo (Argentina)</h5>
+            <p class="text-light">EL MEJOR VINO!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/testimonio2.jpg"
+            class="d-block w-50 mx-auto"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block testimonio">
+            <h5 class="text-light">Raul (España)</h5>
+            <p class="text-light">EL MEJOR VINO!</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
+</div>
+<!--Fin Testimonios -->
+
+
+
+
+
